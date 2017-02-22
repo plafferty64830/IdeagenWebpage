@@ -21,10 +21,14 @@ footer {
 
 nav {
     float: left;
-    max-width: 160px;
+    max-width: 280px;
     margin: 0;
     padding: 0.5em;
+    padding-right: 25px;
     align: left;
+    text-align: center;
+
+
 }
 
 nav ul {
@@ -37,8 +41,17 @@ nav ul a {
 }
 
 article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
+    margin-left: 200px;
     padding: 1em;
     overflow: hidden;
+    border-left: 1px solid black;
+
+}
+
+#logo > img{float:left; align: top-left; width: 250px;}
+
+th:hover {
+
+    border: 2px solid blue;
+
 }
